@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Заметки, для очень важных заметок (очень)">
+  <meta name="keywords" content="Заметки, записка">
+  <meta name="author" content="Алиса, Александр">
+  <title>ENOTES</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XK7E2PM9HK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XK7E2PM9HK');
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <a href="#">Заметки</a>
+      </div>
+      <div class="searching">
+        <button id="add-task-button">Добавить задачу</button>
+      </div>
+      <div class="navigation">
+        <ul>
+          <li><a href="#"><img src="./src/image 1.png" alt=""></a></li>
+          <li><a href="#"><img src="./src/image 2.png" alt=""></a></li>
+        </ul>
+      </div>
+    </header>
+  </div>
+  <div class="container">
+    <div class="inner-container">
+    <div class="sidebar">
+      <div class="main-content">
+        <div class="note-card">
+          <h2>Заметка 1</h2>
+          <p>Содержимое заметки 1...</p>
+        </div>
+        <div class="note-card">
+          <h2>Заметка 2</h2>
+          <p>Содержимое заметки 2...</p>
+        </div>
+        <div class="note-card">
+          <h2>Заметка 3</h2>
+          <p>Содержимое заметки 3...</p>
+        </div>
+      </div>
+    </div>
+    <div class="tasks">
+      <!-- Здесь могут быть задачи -->
+    </div>
+  </div>
+  </div>
+  <div id="output"></div>
+  <script src="script.js"></script>
+</body>
+</html>

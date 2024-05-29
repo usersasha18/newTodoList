@@ -1,0 +1,243 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #EFE4E4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .header {
+    margin-top: 1rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFE4E4;
+  }
+  
+  .navigation>ul {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #EFE4E4;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .main-content {
+    margin-left: 1px;
+    padding: 10px;
+  }
+  
+  .note-card {
+    border: 1px solid #ddd;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 5px;
+  
+  }
+  
+  #output {
+    color: black
+  }
+  
+  .item {
+    background-color: rgb(178, 228, 250);
+    height: 150px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid honeydew;
+  }
+  
+  .item>h2 {
+    color: honeydew;
+  }
+  
+  .item>p {
+    color: navy;
+  }
+  
+  .item>button {
+    color: skyblue
+  }
+  
+  .container1 {
+  
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .tasc {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  
+  * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+  
+  body {
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   background-color: #EFE4E4;
+  }
+  
+  .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 15px;
+  }
+  
+  .header {
+   margin-top: 1rem;
+   padding: 2rem;
+   display: flex;
+   justify-content: space-between;
+   background-color: #EFE4E4;
+  }
+  
+  .navigation>ul {
+   display: flex;
+   gap: 1rem;
+  }
+  
+  ul {
+   list-style-type: none;
+  }
+  
+  .sidebar {
+   width: 200px;
+   background-color: #EFE4E4;
+  
+   height: 100%;
+   overflow: auto;
+  }
+  
+  .main-content {
+   margin-left: 1px;
+   padding: 10px;
+  }
+  
+  .note-card {
+   border: 1px solid #ddd;
+   margin: 1px;
+   padding: 10px;
+   border-radius: 5px;
+  }
+  
+  #output {
+   color: black
+  }
+  
+  .item {
+   color: black;
+   background-color: rgb(113, 201, 157);
+   height: 150px;
+   padding:15px;
+   border-radius:10px;
+   border:2px solid black;
+  }
+  
+  .item>h2 {
+   color: black;
+   background-color: rgb(113, 201, 157);
+  }
+  
+  .item>p {
+   color: black;
+   background-color: rgb(113, 201, 157);
+  }
+  
+  .item>button {
+   color: black;
+   background-color: rgb(113, 201, 157);
+  }
+  
+  .containerF {
+   display: flex;
+   gap: 3rem;
+  }
+  .tasks {
+   display:flex;
+   flex-wrap:wrap;
+   gap:3rem; 
+   height:200px;
+  }
+  
+  /* Добавление стилей к кнопкам */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Стили для кнопки "Добавить задачу" */
+  #add-task-button {  
+  }
+  
+  .inner-container {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .logo >  a {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 30px;
+  }
+  
+  .note-card {
+    max-width: 200px;
+    width: 100%;
+  }
+  
+  .item {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .item p {
+    padding: 10px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
